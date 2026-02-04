@@ -4,3 +4,148 @@
     box-sizing: border-box;
 }
 
+
+nav {
+  position: relative;
+  /* height: 100vh; */
+  background: url("images/69f6ff941c3769a24e8d31903f241c62f7372678.png") center / cover no-repeat;
+}
+
+nav::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.95);
+}
+
+nav {
+    position: relative;
+    z-index: 1;
+    color: white;
+}
+
+.nav-items {
+    position: relative;
+    z-index: 1;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+    padding-top: 20px;
+}
+
+.nav-items #logo {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-items #tuck {
+    color: rgba(188, 154, 108, 1);
+}
+
+.nav-items .container-1 {
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+
+.nav-items .container-1 div:nth-child(1) {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-items .container-1 div:nth-child(1) a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.container-1 #home {
+    color:  rgba(188, 154, 108, 1);
+}
+
+.nav-items .container-1 div:nth-child(2) {
+    display: flex;
+    gap: 20px;
+}
+
+/* HERO SECTION */
+
+.hero {
+    position: relative;
+    z-index: 1;
+    color: white;
+    position: relative;
+    padding: 100px 100px;
+}
+
+.hero-1 div:nth-child(1) { 
+    display: flex;
+    gap: 2px;
+    border: 1px solid rgba(188, 154, 108, 1);
+    width: 230px;
+    padding: 8px 20px;
+    position: relative;
+}
+
+.hero-1 img {
+    width: 50px;
+    position: absolute;
+    left: 180px;
+    bottom: 5px;
+}
+
+.hero-1 span {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-1 h1 {
+    font-size: 60px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 426px;
+    height: 136px;
+    color: rgba(188, 154, 108, 1);
+}
+
+.hero-1 p {
+    font-size: 16px; 
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 426px;
+    padding: 30px 0px;
+}
+
+.hero-1-btn {
+    display: flex;
+    gap: 20px;
+}
+
+.hero-1 button:nth-child(1) {
+    background-color: rgba(188, 154, 108, 1);
+    width: 190px;
+    height: 60px;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+}
+
+.hero-1 button:nth-child(2) {
+    background: transparent;
+    width: 190px;
+    height: 60px;
+    font-size: 16px;
+    font-weight: 700;
+    border: 1px solid rgba(188, 154, 108, 1);
+    color: rgba(188, 154, 108, 1);
+}
+
+
+
+
